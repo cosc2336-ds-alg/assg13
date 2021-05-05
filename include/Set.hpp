@@ -1,12 +1,12 @@
 /** @file Set.hpp
- * @brief Header file for Assignment 02 using classes defining user-defined
+ * @brief Header file for Assignment Classes using classes defining user-defined
  *   data types.
  *
  * @author Jane Programmer
  * @note   cwid : 123 45 678
  * @note   class: COSC 2336, Summer 2021
  * @note   ide  : VS Code Server 3.9.3 and Gnu/Make build tools
- * @note   assg : Assignment 02
+ * @note   assg : Assignment Classes
  * @date   June 1, 2021
  *
  * Set class.  This is the class header file.  It contains the

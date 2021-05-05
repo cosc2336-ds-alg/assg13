@@ -1,12 +1,12 @@
 /** @file Set.cpp
- * @brief Implementation file for Assignment 02 classes defining
+ * @brief Implementation file for Assignment Classes: classes defining
  *   user-defined data types.
  *
  * @author Jane Programmer
  * @note   cwid : 123 45 678
  * @note   class: COSC 2336, Summer 2021
  * @note   ide  : VS Code Server 3.9.3 and Gnu/Make build tools
- * @note   assg : Assignment 02
+ * @note   assg : Assignment Classes
  * @date   June 1, 2021
  *
  * Set class.  This is the class implementation file. It contains the

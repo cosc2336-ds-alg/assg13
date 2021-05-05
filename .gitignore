@@ -13,3 +13,4 @@ Makefile.pandoc
 html/*
 latex/*
 .vscode/*
+.vscode

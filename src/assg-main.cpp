@@ -1,15 +1,15 @@
-/** @file assg02-main.cpp
- * @brief main/debug executable for Assignment 02, classes defining user-defined
+/** @file assg-main.cpp
+ * @brief main/debug executable for Assignment Classes: classes defining user-defined
  *   data types.
  *
  * @author Jane Programmer
  * @note   cwid : 123 45 678
  * @note   class: COSC 2336, Summer 2021
  * @note   ide  : VS Code Server 3.9.3 and Gnu/Make build tools
- * @note   assg : Assignment 02
+ * @note   assg : Assignment Classes
  * @date   June 1, 2021
  *
- * Assignment 02, practice on classes for defining user-defined types.
+ * Assignment Classes: practice on classes for defining user-defined types.
  * This file contains a separate main() function and is meant to be
  * compiled to a separate executable to be used for debugging or testing.
  */
@@ -33,6 +33,8 @@ using namespace std;
  */
 int main(int argc, char** argv)
 {
+  // add code for debugging here
+  cout << "Hello Assignment Classes" << endl;
 
   // return 0 to indicate successful completion
   return 0;

@@ -1,7 +1,7 @@
 ---
-title: 'Assignment 02: Classes, User Defined Data Types'
+title: 'Assignment Classes: Classes and User Defined Data Types'
 author: 'COSC 2336: Data Structures and Algorithms'
-date: 'Fall 2020'
+date: Summer 2021'
 ---
 
 
@@ -33,27 +33,29 @@ using and adding code to for this assignment.
 
 | File Name                 | Description                         |
 |---------------------------|-------------------------------------|
-| `assg02-tests.cpp`        | Unit tests for the Set class you are to implement.                   |
+| `assg-tests.cpp`        | Unit tests for the Set class you are to implement.                   |
 | `Set.hpp`                 | Header file for the declarations of the `Set` class and its members. |
 | `Set.cpp`                 | Implementation file for the member functions of your `Set` class.    |
 
 As usual, before starting on the assignment tasks proper, you should make sure
 you have completed the following setup steps.
 
-1. Copy the assignment repository on GitHub using the provided assignment
-   invitation link for assg02 for our current class semester and section.
+1. Copy the assignment repository on GitHub using the provided
+   assignment invitation link for 'Assignment Classes' for our current
+   class semester and section.
 2. Clone the repository using the SSH url to your local class DevBox
    development environment.
-3. Checkout the 'origins/feedback' branch to your local working DevBox
+3. Checkout the 'origins/feedback' branch to your locak working DevBox
    repository.
-4. Confirm that the project builds and runs, though no tests will be
+4. Configure the project by running the `configure` script from a terminal.
+5. Confirm that the project builds and runs, though no tests will be
    defined or run initially.  If the project does not build on the first
    checkout, please inform the instructor.
-5. You should create the issue for Task 1 and/or for all tasks for the assignment
+6. You should create the issue for Task 1 and/or for all tasks for the assignment
    now before beginning the first task.  On your GitHub account, go to issues,
    and create it/them from the issue templates for the assignment.  Also you
    should close the initial Pull request that should be automatically
-   opened for you, so that you can open your own when committing your work.
+   opened for you, so that you can open your own when commiting your work.
 
 
 
