@@ -1,7 +1,7 @@
 ---
 title: 'Assignment Classes: Classes and User Defined Data Types'
 author: 'COSC 2336: Data Structures and Algorithms'
-date: Summer 2021'
+date: 'Summer 2021'
 ---
 
 
