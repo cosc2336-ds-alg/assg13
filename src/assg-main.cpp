@@ -13,11 +13,10 @@
  * This file contains a separate main() function and is meant to be
  * compiled to a separate executable to be used for debugging or testing.
  */
+#include "Set.hpp"
 #include <cmath>
 #include <iostream>
-#include "Set.hpp"
 using namespace std;
-
 
 /** main entry point
  * Main entry point for debugging functions.

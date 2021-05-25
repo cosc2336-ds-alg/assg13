@@ -13,12 +13,11 @@
  * unit test framework.  Tests are given (commented out) for the member functions
  * you need to implement for the two classes for this assignment.
  */
+#include "Set.hpp"
+#include "catch.hpp"
 #include <cmath>
 #include <iostream>
-#include "catch.hpp"
-#include "Set.hpp"
 using namespace std;
-
 
 /** Task 1 stub function tests.  Ensure that stub functions
  * are created for the accessor methods that return the
@@ -41,7 +40,6 @@ using namespace std;
    CHECK(s.str() == "[ ]");
    }
  */
-
 
 /** Task 2 addItem tests
  * Our first real test of the set.  Lets add some items and
@@ -91,7 +89,6 @@ using namespace std;
    }
    }
  */
-
 
 /** Task 3 addItem duplicate items
  * This is a set, so adding existing items should not cause the set to
@@ -158,7 +155,6 @@ using namespace std;
    }
    }
  */
-
 
 /** Task 4 removeItem tests
  * Test that removeItems is working.
@@ -264,7 +260,6 @@ using namespace std;
    }
  */
 
-
 /** A test fixture is a common Unit Test concept.  Basically catch2 will
  * create a new instance of this class for each TEST_CASE_METHOD where we
  * use this fixture.  We create instances of sets we can use to test
@@ -309,7 +304,6 @@ using namespace std;
    };
  */
 
-
 /** Task 5 operatorUnion tests
  * Test that the union operation on sets works correctly.
  * Uncomment the following test case block and write your code
@@ -342,7 +336,6 @@ using namespace std;
    }
  */
 
-
 /** Task 5 operatorUnion tests
  * Test that the union operation on sets works correctly.
  * Uncomment the following test case block and write your code
@@ -374,7 +367,6 @@ using namespace std;
    }
    }
  */
-
 
 /** Task 5 operatorUnion tests
  * Test that the union operation on sets works correctly.
@@ -412,7 +404,6 @@ using namespace std;
    }
    }
  */
-
 
 /** Task 5 operatorUnion tests
  * Test that the union operation on sets works correctly.
@@ -453,7 +444,6 @@ using namespace std;
    }
    }
  */
-
 
 /** Task 5 operatorUnion tests
  * Test that the union operation on sets works correctly.
@@ -496,7 +486,6 @@ using namespace std;
    }
  */
 
-
 /** Task 6 operatorIntersect tests
  * Test that the intersection operation on sets works correctly.
  * Uncomment the following test case block and write your code
@@ -526,7 +515,6 @@ using namespace std;
    }
    }
  */
-
 
 /** Task 6 operatorIntersect tests
  * Test that the intersection operation on sets works correctly.
@@ -558,7 +546,6 @@ using namespace std;
    }
  */
 
-
 /** Task 6 operatorIntersect tests
  * Test that the intersection operation on sets works correctly.
  * Uncomment the following test case block and write your code
@@ -585,7 +572,6 @@ using namespace std;
    }
    }
  */
-
 
 /** Task 6 operatorIntersect tests
  * Test that the intersection operation on sets works correctly.
@@ -626,7 +612,6 @@ using namespace std;
    }
    }
  */
-
 
 /** Task 6 operatorIntersect tests
  * Test that the intersection operation on sets works correctly.

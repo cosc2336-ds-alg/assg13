@@ -22,11 +22,9 @@
 
 using namespace std;
 
-
 /// @brief MAX_SET_SIZE We used a fixed size array, so we have to have an
 ///   upper limit on thE size of the sets we can represent.
 const int MAX_SET_SIZE = 100;
-
 
 /** Set class.
  * Represent a set of integer values.

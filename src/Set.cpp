@@ -16,12 +16,10 @@
  * class by prepending member function name with Set::
  */
 #include "Set.hpp"
-#include <string>
 #include <sstream>
-
+#include <string>
 
 using namespace std;
-
 
 /** Set default constructor
  * Default constructor for set class. By default we construct
@@ -34,14 +32,12 @@ Set::Set()
   // we will simply replace any values when we add items to the set.
 }
 
-
 /** check if set is empty
  * Check if the set is empty or not.  Return true for a currently empty
  * set and false if the set is not empty.
  *
  * @returns bool True when the set is empty, false when it is not empty.
  */
-
 
 /** contains item
  * Check whether an item is present in the set or not.
@@ -51,7 +47,6 @@ Set::Set()
  * @returns bool True if the item is currently in this set, false
  *   if it is not in this set.
  */
-
 
 /** convert to string
  * Create and return a string representation of the current set items.
@@ -64,7 +59,6 @@ Set::Set()
  *   set items we currently have.
  */
 
-
 /** get set size
  * Return the current size of the set, e.g. the number of items currently
  * present in this set.
@@ -73,14 +67,12 @@ Set::Set()
  *   set.
  */
 
-
 /** add item to set
  * Add a new item given as a parameter to our set of items.  This is a set,
  * So we do nothing if the item is already in the set.
  *
  * @param item The integer item to be added into the current set of items.
  */
-
 
 /** remove item from set
  * Remove the indicated item.  If the item is not in the set, this method
@@ -90,7 +82,6 @@ Set::Set()
  *
  * @param item The item that we should search for and remove from the set.
  */
-
 
 /** set union operation
  * Calculate the union of this set with an otherSet.  The union of two setns
@@ -107,7 +98,6 @@ Set::Set()
  *   is modified and on return it will now contain the union of the two
  *   sets.
  */
-
 
 /** set intersection operation
  * Calculate the intersection of this set with the otherSet we
