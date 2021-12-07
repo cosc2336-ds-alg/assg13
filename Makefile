@@ -3,10 +3,9 @@ VERSION=0.3
 BASE_DIR := ../assg-base-$(VERSION)
 PROJECT_NAME=assg
 
-test_src  = $(PROJECT_NAME)-tests.cpp \
-	    Set.cpp
-debug_src = $(PROJECT_NAME)-main.cpp \
-	    Set.cpp
+test_src  = $(PROJECT_NAME)-tests.cpp
+
+debug_src = $(PROJECT_NAME)-main.cpp 
 
 # template files, list all files that define template classes
 # or functions and should not be compiled separately (template

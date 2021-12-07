@@ -6,15 +6,11 @@
  * @note   cwid : 123 45 678
  * @note   class: COSC 2336, Summer 2021
  * @note   ide  : VS Code Server 3.9.3 and Gnu/Make build tools
- * @note   assg : Assignment Classes
- * @date   June 1, 2021
+ * @note   assg : Assignment STL
+ * @date   December 7, 2021
  *
- * Assignment Classes: practice on classes for defining user-defined types.
- * This file contains a separate main() function and is meant to be
- * compiled to a separate executable to be used for debugging or testing.
+ * Assignment C++ Standard Template Library STL
  */
-#include "Set.hpp"
-#include <cmath>
 #include <iostream>
 using namespace std;
 
@@ -33,7 +29,7 @@ using namespace std;
 int main(int argc, char** argv)
 {
   // add code for debugging here
-  cout << "Hello Assignment Classes" << endl;
+  cout << "Hello Assignment STL" << endl;
 
   // return 0 to indicate successful completion
   return 0;
