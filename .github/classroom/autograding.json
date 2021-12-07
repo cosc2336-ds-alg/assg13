@@ -8,67 +8,17 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 40
+      "points": 50
     },
     {
-      "name": "test task1StubFunctions",
+      "name": "test task1",
       "setup": "make",
-      "run": "./test --list-test-names-only [task1StubFunctions] | grep . && ./test [task1StubFunctions]",
+      "run": "./test --list-test-names-only [task1] | grep . && ./test [task1]",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
       "points": 10
     },
-    {
-      "name": "test task2addItem",
-      "setup": "make",
-      "run": "./test --list-test-names-only [task2addItem] | grep . && ./test [task2addItem]",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-    {
-      "name": "test task3addItemDuplicates",
-      "setup": "make",
-      "run": "./test --list-test-names-only [task3addItemDuplicates] | grep . && ./test [task3addItemDuplicates]",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-    {
-      "name": "test task4removeItem",
-      "setup": "make",
-      "run": "./test --list-test-names-only [task4removeItem] | grep . && ./test [task4removeItem]",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-    {
-      "name": "test task5operatorUnion",
-      "setup": "make",
-      "run": "./test --list-test-names-only [task5operatorUnion] | grep . && ./test [task5operatorUnion]",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-    {
-      "name": "test task6operatorIntersect",
-      "setup": "make",
-      "run": "./test --list-test-names-only [task6operatorIntersect] | grep . && ./test [task6operatorIntersect]",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    }
   ]
 }
