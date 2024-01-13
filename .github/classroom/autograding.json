@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "test successfully builds",
-      "setup": "./configure",
+      "setup": "make clean",
       "run": "make",
       "input": "",
       "output": "",
@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 50
     },
   ]
 }

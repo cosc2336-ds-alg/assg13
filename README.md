@@ -1,7 +1,7 @@
 ---
 title: 'Assignment STL: Using the C++ Standard Template Library (STL)'
 author: 'COSC 2336: Data Structures and Algorithms'
-date: 'Fall 2021'
+date: 'Spring 2024'
 ---
 
 
@@ -15,7 +15,7 @@ date: 'Fall 2021'
 
 # Description
 This assignment is open ended.  I have not given specific tasks
-to do, but described tasks you can complete to get points for htis assignment.
+to do, but described tasks you can complete to get points for this assignment.
 
 
 # Overview and Setup
@@ -25,7 +25,7 @@ using and adding code to for this assignment.
 
 | File Name                 | Description                         |
 |---------------------------|-------------------------------------|
-| `assg-tests.cpp`        | Unit tests for the Set class you are to implement.                   |
+| `assg13-tests.cpp`        | Unit tests for the Set class you are to implement.                   |
 
 As usual, before starting on the assignment tasks proper, you should make sure
 you have completed the following setup steps.
@@ -34,18 +34,16 @@ you have completed the following setup steps.
    assignment invitation link for 'Assignment Classes' for our current
    class semester and section.
 2. Clone the repository using the SSH url to your local class DevBox
-   development environment.
-3. Checkout the 'origins/feedback' branch to your locak working DevBox
-   repository.
-4. Configure the project by running the `configure` script from a terminal.
-5. Confirm that the project builds and runs, though no tests will be
+   development environment. Make sure to open the cloned
+   folder and restart inside of the correct Dev Container.
+3. Confirm that the project builds and runs, though no tests will be
    defined or run initially.  If the project does not build on the first
    checkout, please inform the instructor.
-6. You should create the issue for Task 1 and/or for all tasks for the assignment
+4. You should create the issue for Task 1 and/or for all tasks for the assignment
    now before beginning the first task.  On your GitHub account, go to issues,
    and create it/them from the issue templates for the assignment.  Also you
    should close the initial Pull request that should be automatically
-   opened for you, so that you can open your own when commiting your work.
+   opened for you, so that you can open your own when committing your work.
 
 There are actually no files beyond a stub test file with an example of a test
 of an STL list.  You will have to add in your own tests and/or files for this
@@ -62,7 +60,7 @@ Some suggested tasks.
 1. Reimplement the queue assignment functions but use STL queue and stack
    objects instead of our hand built ones.
 2. Demonstrate using maps and ordered maps.  What is the backing store used
-   for each?  Show adding and iterating over the itmes in the maps.
+   for each?  Show adding and iterating over the items in the maps.
 3. Demonstrate using list and vector.  What is the difference.  Show using
    multiple member methods to add items to these containers and get information
    about the containers.  Show how vector can be accessed using operator[].

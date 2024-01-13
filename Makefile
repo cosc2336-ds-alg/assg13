@@ -1,11 +1,13 @@
-# source files in this project (for beautification)
-VERSION=0.3
-BASE_DIR := ../assg-base-$(VERSION)
-PROJECT_NAME=assg
+# source files in this project 
+PROJECT_NAME=assg13
 
-test_src  = $(PROJECT_NAME)-tests.cpp
+assg_src  = 
 
-debug_src = $(PROJECT_NAME)-main.cpp 
+test_src  = ${PROJECT_NAME}-tests.cpp \
+	    ${assg_src}
+
+sim_src   = ${PROJECT_NAME}-sim.cpp \
+	    ${assg_src}
 
 # template files, list all files that define template classes
 # or functions and should not be compiled separately (template
@@ -16,4 +18,8 @@ template_files =
 assg_doc  = ${PROJECT_NAME}.pdf
 
 # common targets and variables used for all assignments/projects
-include $(BASE_DIR)/include/Makefile.inc
+include include/Makefile.inc
+
+# assignment header file specific dependencies
+${OBJ_DIR}/${PROJECT_NAME}-tests.o: ${SRC_DIR}/${PROJECT_NAME}-tests.cpp
+${OBJ_DIR}/${PROJECT_NAME}-sim.o: ${SRC_DIR}/${PROJECT_NAME}-sim.cpp
